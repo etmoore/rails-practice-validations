@@ -1,5 +1,1 @@
-<div class="page-header">
-  <h1>Edit <%= @organization.name_was %></h1>
-</div>
-
-<%= render 'form', model: @organization %>
+<%= render 'form', model: @organization, heading: "Edit #{@organization.name_was}" %>
